@@ -9,7 +9,12 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 This web application uses **Bidirectional Encoder Representations from Transformers [(BERT)](https://arxiv.org/abs/1810.04805)** base model with 12 transformer blocks, 768 hidden size, and 12 self-attention heads. This leads to a total of 110M parameters. A dropout and Dense layer was added to the base model to do the task of sentiment analysis. Model was fine-tuned on 1.6M tweet available in the this [Kaggle dataset](https://www.kaggle.com/kazanova/sentiment140). More detailes are available on this [repository](https://github.com/Masoud-Ghasemian/BERT)
+
+
+
 ![Bert-Demo](https://user-images.githubusercontent.com/53497388/116019557-7192cb80-a612-11eb-8963-33db7ae7a740.gif)
+
+
 
 
 ```markdown
